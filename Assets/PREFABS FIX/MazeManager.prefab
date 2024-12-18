@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6362937823094968651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6362937823094968693}
+  - component: {fileID: 6362937823094968688}
+  - component: {fileID: 6362937823094968695}
+  - component: {fileID: 6362937823094968692}
+  - component: {fileID: 6362937823094968694}
+  m_Layer: 0
+  m_Name: MazeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6362937823094968693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362937823094968651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6362937823094968688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362937823094968651}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24624bcc89b0024181e15c403e1558c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 30
+  depth: 30
+  scale: 6
+  Character: {fileID: 0}
+  Enemy: {fileID: 0}
+  EnemyCount: 3
+  RoomCount: 3
+  RoomMinSize: 6
+  RoomMaxSize: 10
+  surface: {fileID: 0}
+  Cube: []
+--- !u!114 &6362937823094968695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362937823094968651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a685b714b176f4c4f8421db71485cd2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 30
+  depth: 30
+  scale: 6
+  Character: {fileID: 0}
+  Enemy: {fileID: 1736054317622224743, guid: 203cdd58ef13ea0429b9e2935a918e16, type: 3}
+  EnemyCount: 3
+  RoomCount: 3
+  RoomMinSize: 6
+  RoomMaxSize: 10
+  surface: {fileID: 0}
+  Cube:
+  - {fileID: 679367511766692020, guid: 6a77d0952c8a9124db8b8b008fc08c98, type: 3}
+  - {fileID: 6540289968449525634, guid: 97135caa55a266741983b3cb1a586d81, type: 3}
+  - {fileID: 6540289968449525634, guid: d72ac9d606933c14e916aad07e35d5c1, type: 3}
+--- !u!114 &6362937823094968692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362937823094968651}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a64e68a2b6c546439d115913d9182d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 30
+  depth: 30
+  scale: 6
+  Character: {fileID: 0}
+  Enemy: {fileID: 0}
+  EnemyCount: 3
+  RoomCount: 3
+  RoomMinSize: 6
+  RoomMaxSize: 10
+  surface: {fileID: 0}
+  Cube:
+  - {fileID: 7746849566161640776, guid: 95df902f0e2d96e4fabc9c49ec303aa7, type: 3}
+  - {fileID: 7746849566161640776, guid: a351831ccf505914786b407bf2d8899d, type: 3}
+  - {fileID: 7746849566161640776, guid: 44ab5777a8ba63848ba1a6bb9b5c7ecf, type: 3}
+  - {fileID: 7746849566161640776, guid: b72f96c1eb305054aa7d692a3a20dcab, type: 3}
+--- !u!114 &6362937823094968694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362937823094968651}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa013ca36be6c045a79eadc7bc9203c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 30
+  depth: 30
+  scale: 6
+  Character: {fileID: 0}
+  Enemy: {fileID: 0}
+  EnemyCount: 3
+  RoomCount: 3
+  RoomMinSize: 6
+  RoomMaxSize: 10
+  surface: {fileID: 0}
+  Cube:
+  - {fileID: 7746849566161640776, guid: 95df902f0e2d96e4fabc9c49ec303aa7, type: 3}
+  - {fileID: 7746849566161640776, guid: a351831ccf505914786b407bf2d8899d, type: 3}
+  - {fileID: 7746849566161640776, guid: 44ab5777a8ba63848ba1a6bb9b5c7ecf, type: 3}
+  - {fileID: 7746849566161640776, guid: b72f96c1eb305054aa7d692a3a20dcab, type: 3}
